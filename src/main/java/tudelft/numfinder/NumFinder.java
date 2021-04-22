@@ -1,3 +1,4 @@
+//Editado 04/22/21 - 04:14 - Joao Santino
 package tudelft.numfinder;
 
 public class NumFinder {
@@ -9,7 +10,7 @@ public class NumFinder {
 
             if(n < smallest)
                 smallest = n;
-            else if (n > largest)
+            if (n > largest)
                 largest = n;
 
         }
